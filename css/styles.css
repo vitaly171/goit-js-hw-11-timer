@@ -7,3 +7,58 @@ html {
 *::after {
   box-sizing: border-box;
 }
+
+body {
+  font-family: "DM Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../images/2022-olympics.com.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 20px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #161515;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.field {
+  min-width: 150px;
+  margin: 5px;
+}
+
+.value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  font-size: 72px;
+  font-weight: 700;
+  text-align: center;
+  color: #161515;
+  background-color: #1983ce94;
+  border-radius: 75px;
+}
+
+.label {
+  display: block;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #161515;
+}
